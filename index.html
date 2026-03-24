@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>National Science Centre Delhi</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#eef2f7;
+}
+
+/* HEADER */
+
+header{
+height:60vh;
+background:linear-gradient(135deg,#0b5ed7,#00c6ff);
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+header h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+opacity:0.9;
+}
+
+/* NAV */
+
+nav{
+background:white;
+display:flex;
+justify-content:center;
+gap:40px;
+padding:15px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+position:sticky;
+top:0;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#0b5ed7;
+}
+
+/* SECTIONS */
+
+section{
+padding:70px 10%;
+}
+
+section h2{
+text-align:center;
+margin-bottom:40px;
+color:#0b5ed7;
+font-size:32px;
+}
+
+/* CARDS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* INTRO */
+
+.intro{
+text-align:center;
+font-size:18px;
+line-height:1.7;
+max-width:900px;
+margin:auto;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>National Science Centre</h1>
+<p>Educational Visit for IT Students</p>
+</header>
+
+<nav>
+<a href="#intro">About</a>
+<a href="#visit">Why Visit</a>
+<a href="#benefits">Benefits</a>
+<a href="#logistics">Logistics</a>
+</nav>
+
+<section id="intro">
+<h2>About the Centre</h2>
+<p class="intro">
+The National Science Centre located at Pragati Maidan, Delhi is one of Asia’s largest science museums. 
+It promotes scientific awareness through interactive exhibits, robotics displays, and hands-on experiments. 
+Students can explore future technologies such as artificial intelligence, space science, and biotechnology.
+</p>
+</section>
+
+<section id="visit">
+<h2>Why Visit?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🤖 Robotics Gallery</h3>
+<p>See robots in action and understand how robotics technology works.</p>
+</div>
+
+<div class="card">
+<h3>💻 IT & Communication</h3>
+<p>Learn about computer networks, digital communication, and modern IT systems.</p>
+</div>
+
+<div class="card">
+<h3>🧪 Interactive Experiments</h3>
+<p>Hands-on activities that demonstrate real scientific concepts.</p>
+</div>
+
+<div class="card">
+<h3>🚀 Space Technology</h3>
+<p>Discover space exploration and future scientific innovations.</p>
+</div>
+
+</div>
+</section>
+
+<section id="benefits">
+<h2>Benefits for IT Students</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📚 Practical Learning</h3>
+<p>Connect classroom knowledge with real-world technologies.</p>
+</div>
+
+<div class="card">
+<h3>💡 Innovation</h3>
+<p>Inspires students to think creatively and develop project ideas.</p>
+</div>
+
+<div class="card">
+<h3>🤖 Technology Exposure</h3>
+<p>Explore AI, robotics, and communication systems.</p>
+</div>
+
+<div class="card">
+<h3>🎓 Career Growth</h3>
+<p>Helps students understand technology-related career paths.</p>
+</div>
+
+</div>
+</section>
+
+<section id="logistics">
+<h2>Visit Information</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📍 Location</h3>
+<p>Pragati Maidan, Delhi</p>
+</div>
+
+<div class="card">
+<h3>⏰ Timings</h3>
+<p>9:30 AM – 6:00 PM</p>
+</div>
+
+<div class="card">
+<h3>👥 Group Size</h3>
+<p>20 – 40 students (ideal batch size)</p>
+</div>
+
+<div class="card">
+<h3>🚇 Transport</h3>
+<p>Easily reachable via Delhi Metro.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Educational Visit | National Science Centre Delhi
+    <a href="https://nscd.gov.in/" target="_blank" class="visit-btn">
+Visit Official Website
+</a>
+</p>
+</footer>
+
+</body>
+</html>
